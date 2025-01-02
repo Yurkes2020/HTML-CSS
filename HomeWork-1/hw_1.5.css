@@ -6,7 +6,7 @@ ul {
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
-	grid-gap: 40px;
+	gap: 40px;
 	
 	
 	li {
