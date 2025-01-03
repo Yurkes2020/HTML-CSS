@@ -2,7 +2,7 @@ p {
 	font-size: 40px;
 	color: #757070;
 	margin-left: 20px;
-}
+	}
 
 ul {
 	list-style-type: none;
@@ -10,18 +10,17 @@ ul {
 	width: 70%;
 	margin-left: 20px;
 	padding: 0;
-	
-	li {
-		background-color: #faf6f6;
-		font-size: 26px;
-		color: black;
-		padding: 10px;
-		margin-right: 10px;
 	}
-}
 
+ul li {
+	background-color: #faf6f6;
+	font-size: 26px;
+	color: black;
+	padding: 10px;
+	margin-right: 10px;
+	}
 
 
 .red {
 	color: red;
-}
+	}
