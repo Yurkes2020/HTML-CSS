@@ -2,6 +2,26 @@
     margin: 0;
 }
 
+body{
+    background-color: #6eb685;
+}
+
 ul{
     list-style-type: none;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+li {
+    background-color: #e1d4d4;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 10px;
 }
