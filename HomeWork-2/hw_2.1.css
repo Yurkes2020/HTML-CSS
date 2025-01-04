@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	}
+
+li {
+	border: 2px solid #dbcece;
+	border-radius: 20px;
+
+	}
+
+img {
+	padding: 5px;
+	display: block;
+	width: 200px;
+	height: 200px;
+	}
+
+p{
+	font-size: 26px;
+	text-align: center;
+}
