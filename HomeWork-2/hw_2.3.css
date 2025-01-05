@@ -15,11 +15,17 @@ ul{
 }
 
 li {
-    background-color: #e1d4d4;
+    background-color: #ddddbe;
     padding: 10px;
     width: 200px;
     height: auto;
     border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+li:hover{
+    scale: 1.1;
+    transition-duration: 0.5s;
 }
 
 p{
