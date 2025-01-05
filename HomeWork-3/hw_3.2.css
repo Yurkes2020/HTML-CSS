@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 20px;
+}
+
+section {
+    padding: 30px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first{
+    background-color: #df689a;
+}
+
+
+.second{
+    background-color: #1b1517;
+    color: white;
+}
