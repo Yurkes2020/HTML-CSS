@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	height: 4vh;
+	background: #D9D9D9;
+}
+
+.main-container {
+	display: flex;
+}
+
+.vertical {
+	height: 74vh;
+	width: 59vw;
+	background: #A4A4A4;
+}
+
+aside {
+	height: 40vh;
+	width: 41vw;
+	background: #7F7A7A;
+}
+
+aside + aside {
+	height: 34vh;
+	background: #615050;
+}
+
+.horizontal {
+	height: 10vh;
+	background: #D9D9D9;
+}
+
+footer {
+	height: 12vh;
+	background: #AFA9A9;
+}

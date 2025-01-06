@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", serif;
+	font-size: 45px;
+}
+
+header, main, footer, section, aside {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	height: 20vh;
+	background: #8D8484;
+}
+
+main {
+	color: #FFF;
+}
+
+section {
+	width: 73vw;
+	height: 20vh;
+	background: #776969;
+}
+
+section + section {
+	background: #643030;
+}
+
+/* так взягалі нормально писати?? звичайно можна через класи, але просто цікаво */
+
+section + section + section {
+	background: #441818;
+}
+
+aside {
+	width: 27vw;
+	height: 30vh;
+	background: #937575;
+}
+
+aside + aside {
+	background: #644C4C;
+}
+
+
+footer {
+	height: 20vh;
+	background: #BDBDBD;
+}
