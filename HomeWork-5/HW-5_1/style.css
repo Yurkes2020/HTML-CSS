@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	border-radius: 34px;
+	position: relative;
+	margin: 20px auto 0;
+	border: 10px solid green;
+	width: 600px;
+	height: 600px;
+	list-style: none;
+	display: flex;
+}
+
+li {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	border-radius: 50%;
+	
+}
+
+@keyframes test {
+	from {
+		transform: translate(0px, 0);
+		
+	}
+	25% {
+		
+		transform: translateX(530px);
+		background-color: yellow;
+	}
+	50% {
+		
+		transform: translate(530px, 530px);
+		background-color: blue;
+	}
+	75%{
+		
+		transform: translateY( 530px);
+		background-color: red;
+	}
+	to {
+		
+		transform: translate(0, 0);
+	}
+	
+}
+
+li {
+	animation: test 8s infinite linear;
+}
+
+li:nth-of-type(1) {
+	animation-delay: 0s;
+}
+
+li:nth-of-type(2) {
+	animation-delay: 0.5s;
+}
+
+li:nth-of-type(3) {
+	animation-delay: 1s;
+}
+
+li:nth-of-type(4) {
+	animation-delay: 1.5s;
+}
+
+li:nth-of-type(5) {
+	animation-delay: 2s;
+}
