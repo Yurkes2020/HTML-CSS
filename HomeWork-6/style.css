@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.item-1 > li:nth-child(even) {
+	color: pink;
+}
+
+.item-2 > li:nth-child(odd) {
+	font-size: 22px;
+}
+
+.item-3 > li:nth-child(2n+4)::after {
+	content: '!';
+}
+
+.item-4 > li:last-child {
+	color: violet;
+}
+
+.item-5 > li::first-letter {
+	font-size: 30px;
+	color: red;
+}
