@@ -5,11 +5,8 @@
 	list-style-type: none;
 }
 
-body{
-	font-family: 'Inter', sans-serif;
-}
-
 main {
+	font-family: 'Inter', sans-serif;
 	padding: 64px 48px;
 }
 

@@ -1,0 +1,16 @@
+@media (376px <= width <= 768px) {
+	main {
+		padding: 48px 24px;
+	}
+	
+	ul {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 40px;
+	}
+	
+	p {
+		max-width: 40vw;
+	}
+	
+}
