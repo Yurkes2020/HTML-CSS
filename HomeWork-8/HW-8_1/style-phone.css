@@ -1,0 +1,17 @@
+@media (0 <= width <= 375px) {
+	main {
+		padding: 32px 16px;
+	}
+	
+	ul {
+		row-gap: 40px;
+	}
+	
+	li {
+		width: 343px;
+	}
+	
+	img {
+		height: 257px;
+	}
+}
