@@ -1,4 +1,4 @@
-@media (376px <= width <= 768px) {
+@media screen and (min-width: 376px) and (max-width: 768px) {
 	main {
 		padding: 32px 34px;
 	}
